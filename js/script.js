@@ -9,7 +9,7 @@
 /**
  * This function convert Fahrenheit to Celsius.
  */
-function calculateFahrenheit() {
+function calculateFahrenheitToCelsius() {
   // input
   const fahrenheitOfTemperature = parseFloat(document.getElementById('fahrenheit-of-temperature').value)
 
