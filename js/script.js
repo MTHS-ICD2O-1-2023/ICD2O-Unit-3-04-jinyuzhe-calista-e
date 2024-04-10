@@ -11,11 +11,11 @@
  */
 function calculateFahrenheit() {
   // input
-  const fahrenheit = parseFloat(document.getElementById('fahrenheit').value)
+  const fahrenheitOfTemperature = parseFloat(document.getElementById('fahrenheit-of-temperature').value)
 
   // process
-  const celsius = ( fahrenheit - 32 ) * 5 / 9
+  const fahrenheitToCelsius = ( fahrenheitOfTemperature - 32 ) * 5 / 9
 
   // output
-  document.getElementById('celsius').innerHTML = 'Celsius is: ' + celsius.toFixed(2) + ' °C'
+  document.getElementById('celsius').innerHTML = 'Celsius is: ' + celsius.toFixed(3) + ' °C'
 }
